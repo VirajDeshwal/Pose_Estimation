@@ -551,11 +551,11 @@ def draw_person_pose(orig_img, poses):
         for i, ((x, y, v), color) in enumerate(zip(pose, joint_colors)):
             if v != 0:
                 cv2.circle(canvas, (x, y), 3, color, -1)
-                coord = (x, y,)
-                poses = pose
+                #coord = (x, y,)
+                #poses = pose
                 
     
-    return canvas,coord, pose
+    return canvas
     
 
 if __name__ == '__main__':
