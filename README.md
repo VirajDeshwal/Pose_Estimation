@@ -1,12 +1,5 @@
 # Chainer\_Realtime\_Multi-Person\_Pose\_Estimation
-
-
-This is an implementation of [Realtime Multi-Person Pose Estimation](https://arxiv.org/abs/1611.08050) with Chainer.
-The original project is <a href="https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation">here</a>.
-
-<a href="README_JP.md">日本語版 README</a>
-
-
+MIMIC human pose estimation in form of an avatar
 ## Results
 <p align="center">
 <img src="data/movie_result.gif" width="720">
