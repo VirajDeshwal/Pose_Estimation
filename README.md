@@ -1,3 +1,8 @@
+THe code below is the reference for the original Implementation which was in Caffe.
+The dataset being used is COCO dataset.
+
+
+
 # Chainer\_Realtime\_Multi-Person\_Pose\_Estimation
 MIMIC human pose estimation in form of an avatar
 ## Results
