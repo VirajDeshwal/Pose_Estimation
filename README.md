@@ -5,22 +5,6 @@ The dataset being used is COCO dataset.
 
 # Chainer\_Realtime\_Multi-Person\_Pose\_Estimation
 MIMIC human pose estimation in form of an avatar
-## Results
-<p align="center">
-<img src="data/movie_result.gif" width="720">
-</p>
-
-<div align="center">
-<img src="data/people.png" width="300" height="300">
-&nbsp;
-<img src="data/people_result.png" width="300" height="300">
-</div>
-
-<p align="center">
-<img src="data/demo_result.gif" width="610">
-</p>
-
-This project is licensed under the terms of the <a href="LICENSE">license</a>.
 
 
 ## Content
@@ -67,11 +51,6 @@ If you have a gpu device, use the `--gpu` option.
 python pose_detector.py posenet models/coco_posenet.npz --img data/person.png --gpu 0
 ```
 
-<div align="center">
-<img src="data/person.png" width="300" height="300">
-&nbsp;
-<img src="data/person_result.png" width="300" height="300">
-</div>
 
 
 Similarly, execute the following command for face estimation.
@@ -82,11 +61,7 @@ python face_detector.py facenet models/facenet.npz --img data/face.png
 ```
 
 
-<div align="center">
-<img src="data/face.png" width="300">
-&nbsp;
-<img src="data/face_result.png" width="300">
-</div>
+
 
 
 Similarly, execute the following command for hand estimation.
@@ -96,12 +71,6 @@ The resulting image will be saved as `result.png`.
 python hand_detector.py handnet models/handnet.npz --img data/hand.png
 ```
 
-<div align="center">
-<img src="data/hand.png" width="300">
-&nbsp;
-<img src="data/hand_result.png" width="300">
-</div>
-
 
 Similarly, you can detect all poses, faces and hands by executing the following command.
 The resulting image will be saved as `result.png`.
@@ -110,11 +79,6 @@ The resulting image will be saved as `result.png`.
 python demo.py --img data/dinner.png
 ```
 
-<div align="center">
-<img src="data/dinner.png" width="340">
-&nbsp;
-<img src="data/dinner_result.png" width="340">
-</div>
 
 
 
